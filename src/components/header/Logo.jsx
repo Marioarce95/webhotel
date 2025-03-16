@@ -5,7 +5,7 @@ const Logo = () => {
     <div className="flex-shrink-0">
       <img 
         src="/src/assets/images/logo.svg" 
-        alt="Zonaprop" 
+        alt="Arceprop" 
         className="h-8"
       />
     </div>
