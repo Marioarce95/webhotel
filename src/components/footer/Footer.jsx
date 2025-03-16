@@ -1,9 +1,9 @@
 import React from 'react';
 import { 
-  FacebookIcon, 
-  TwitterIcon, 
-  InstagramIcon, 
-  LinkedInIcon 
+  Square3Stack3DIcon,
+  ChatBubbleLeftIcon,
+  UserGroupIcon,
+  GlobeAltIcon
 } from '@heroicons/react/24/outline';
 
 const Footer = () => {
@@ -45,16 +45,16 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Síguenos</h4>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-gray-300">
-                <FacebookIcon className="h-6 w-6" />
+                <Square3Stack3DIcon className="h-6 w-6" />
               </a>
               <a href="#" className="hover:text-gray-300">
-                <TwitterIcon className="h-6 w-6" />
+                <ChatBubbleLeftIcon className="h-6 w-6" />
               </a>
               <a href="#" className="hover:text-gray-300">
-                <InstagramIcon className="h-6 w-6" />
+                <UserGroupIcon className="h-6 w-6" />
               </a>
               <a href="#" className="hover:text-gray-300">
-                <LinkedInIcon className="h-6 w-6" />
+                <GlobeAltIcon className="h-6 w-6" />
               </a>
             </div>
             <div className="mt-4">
@@ -74,7 +74,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} Zonaprop. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Arcepro. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

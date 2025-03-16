@@ -1,5 +1,5 @@
 import React from 'react';
-import { HomeIcon, BedIcon, BathIcon, RulerIcon } from '@heroicons/react/24/outline';
+import { HomeIcon, Square2StackIcon, BeakerIcon, ArrowsPointingOutIcon } from '@heroicons/react/24/outline';
 
 const PropertyInfo = () => {
   return (
@@ -12,19 +12,19 @@ const PropertyInfo = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <div className="flex items-center space-x-2">
             <HomeIcon className="h-6 w-6 text-gray-500" />
-            <span>4 Ambientes</span>
+            <span className="text-gray-700">4 Ambientes</span>
           </div>
           <div className="flex items-center space-x-2">
-            <BedIcon className="h-6 w-6 text-gray-500" />
-            <span>3 Dormitorios</span>
+            <Square2StackIcon className="h-6 w-6 text-gray-500" />
+            <span className="text-gray-700">3 Dormitorios</span>
           </div>
           <div className="flex items-center space-x-2">
-            <BathIcon className="h-6 w-6 text-gray-500" />
-            <span>2 Baños</span>
+            <BeakerIcon className="h-6 w-6 text-gray-500" />
+            <span className="text-gray-700">2 Baños</span>
           </div>
           <div className="flex items-center space-x-2">
-            <RulerIcon className="h-6 w-6 text-gray-500" />
-            <span>180 m²</span>
+            <ArrowsPointingOutIcon className="h-6 w-6 text-gray-500" />
+            <span className="text-gray-700">250 m²</span>
           </div>
         </div>
 
