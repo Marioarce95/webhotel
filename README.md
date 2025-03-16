@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Real Estate Property Listing Page
 
 A modern, responsive single-page application built with React and Vite for displaying real estate property listings, inspired by Zonaprop's design. This project implements a comprehensive property listing interface with advanced search capabilities and interactive features.
@@ -110,3 +111,7 @@ src/
 ├── utils/           # Utility functions
 ├── context/         # React context
 └── assets/          # Static assets
+=======
+# webhotel
+proyecto de one page de venta de un hotel
+>>>>>>> 83c55935e8c5d5d51b31f10df99b152d1ac39a8c
