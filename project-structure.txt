@@ -1,0 +1,42 @@
+src/
+├── components/
+│   ├── header/
+│   │   ├── Header.jsx
+│   │   ├── Logo.jsx
+│   │   ├── SearchBar.jsx
+│   │   ├── Navigation.jsx
+│   │   └── UserIcons.jsx
+│   ├── breadcrumbs/
+│   │   └── Breadcrumbs.jsx
+│   ├── property/
+│   │   ├── PropertyTitle.jsx
+│   │   ├── ImageGallery.jsx
+│   │   ├── PropertyInfo.jsx
+│   │   ├── PropertyFeatures.jsx
+│   │   └── AdditionalFeatures.jsx
+│   ├── contact/
+│   │   └── ContactForm.jsx
+│   ├── map/
+│   │   └── LocationMap.jsx
+│   ├── advertiser/
+│   │   └── AdvertiserInfo.jsx
+│   └── footer/
+│       └── Footer.jsx
+├── layouts/
+│   └── MainLayout.jsx
+├── pages/
+│   └── PropertyDetail.jsx
+├── hooks/
+│   ├── useImageGallery.js
+│   └── usePropertyData.js
+├── services/
+│   ├── api.js
+│   └── maps.js
+├── utils/
+│   ├── formatters.js
+│   └── validators.js
+├── context/
+│   └── PropertyContext.jsx
+└── assets/
+    ├── images/
+    └── icons/
