@@ -10,6 +10,10 @@ export default {
         'zonaprop': {
           'blue': '#2A3B47',
           'orange': '#FF7212',
+        },
+        'whatsapp': {
+          'green': '#25D366',
+          'dark': '#128C7E',
         }
       },
       fontFamily: {

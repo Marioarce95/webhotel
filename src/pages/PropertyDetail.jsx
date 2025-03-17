@@ -1,5 +1,5 @@
 import React from 'react';
-import Breadcrumbs from '../components/breadcrumbs/Breadcrumbs';
+// Remove Breadcrumbs import
 import PropertyTitle from '../components/property/PropertyTitle';
 import ImageGallery from '../components/property/ImageGallery';
 import PropertyInfo from '../components/property/PropertyInfo';
@@ -12,7 +12,7 @@ import AdvertiserInfo from '../components/advertiser/AdvertiserInfo';
 const PropertyDetail = () => {
   return (
     <div className="bg-gray-50 min-h-screen">
-      <Breadcrumbs />
+      {/* Remove Breadcrumbs component */}
       <PropertyTitle />
       <ImageGallery />
       

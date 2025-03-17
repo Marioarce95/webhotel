@@ -74,7 +74,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} Arcepro. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} AGP. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

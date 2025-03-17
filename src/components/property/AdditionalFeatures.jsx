@@ -6,7 +6,7 @@ const AdditionalFeatures = () => {
     propertyType: {
       icon: <HomeModernIcon className="h-6 w-6" />,
       title: 'Tipo de propiedad',
-      value: 'Quinta'
+      value: 'Hotel'
     },
     condition: {
       icon: <BuildingOfficeIcon className="h-6 w-6" />,
